@@ -6,10 +6,11 @@ Herramientas de DS - Otoño 2017
 ## Python(Estilometria)
 ## Docker
 ## Postgres
+`Postgres` levantando desde Docker 
 ## Scraping
 ## Computo en Paralelo & Secuencial
 ## cli
 
-`Postgres` levantando desde Docker 
+
 
 __Por Ricardo Lastra__
