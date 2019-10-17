@@ -1,11 +1,8 @@
-# Tarea 2: __Programming for DS__
 ## Dashboard Shiny
 
 Crímenes en la Ciudad de México
 
 * Ricardo Lastra 
-
-* 160167
 
 **Contenido**
 
