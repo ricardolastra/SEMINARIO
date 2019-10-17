@@ -1,0 +1,7 @@
+#Paquetes para imagen de Python
+click
+pika
+psycopg2
+pandas
+numpy
+matplotlib

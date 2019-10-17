@@ -1,0 +1,1 @@
+num_pal, 26653 unique_pal, 2213 mean_char_sen, 163.606617647 mean_char_word, 7.0

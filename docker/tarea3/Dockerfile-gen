@@ -1,0 +1,10 @@
+#-------------------------
+#Tarea3. By Ricardo Lastra
+#-------------------------
+#pull imagen base
+FROM python:latest
+#traemos el archivo de python
+COPY requirements.txt /
+#Instalar librerias de python dentro de la imagen
+RUN pip install --no-cache-dir -r requirements.txt 
+COPY . .

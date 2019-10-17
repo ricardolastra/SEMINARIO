@@ -1,0 +1,62 @@
+version: "2"
+services:
+  rabbit:
+    image: rabbitmq:latest
+    environment:
+            - RABBITMQ_DEFAULT_USER=foranea1
+            - RABBITMQ_DEFAULT_PASS=1234
+    ports:
+     - 5672:5672
+    #networks:
+     #- mynet
+
+  postgres:
+    image: postgres:latest
+    environment:
+            - POSTGRES_USER=foranea1
+            - POSTGRES_PASSWORD=1234
+            - POSTGRES_DB=postgres
+    ports:
+     - 5432:5432
+    #networks:
+     #- mynet
+
+  generator:
+    build:
+        context: .
+        dockerfile: Dockerfile-gen
+    environment:
+            - RABBIT_USER=foranea1
+            - RABBIT_PASSWORD=1234
+            - RABBIT_HOST=rabbit
+    entrypoint: python generator.py --seed=160167
+    depends_on:
+            - rabbit
+    #networks:
+     #- mynet
+
+  consumer:
+    build:
+        context: .
+        dockerfile: Dockerfile-con
+    environment:
+           - RABBIT_USER=foranea1
+           - RABBIT_PASSWORD=1234
+           - RABBIT_HOST=rabbit
+    entrypoint: python consumer.py --pg_user="foranea1" --pg_password="1234" --pg_host="tarea3_postgres_1" --pg_database="postgres" --pg_port="5432"
+    depends_on:
+            - rabbit
+            - postgres
+            - generator
+
+  notebook:
+    build:
+      context: ./notebook_config
+      dockerfile: Dockerfile
+    entrypoint: jupyter notebook --allow-root --ip=0.0.0.0 --no-browser ./notebooks/analysis.ipynb
+    ports:
+      - 8888:8888
+    volumes:
+      - ./notebooks:/home/jupyter/workspace/notebooks/
+    #networks:
+     #- mynet

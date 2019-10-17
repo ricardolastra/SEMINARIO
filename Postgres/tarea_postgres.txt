@@ -1,0 +1,43 @@
+###-------DOCKER-------### By Ricardo Lastra
+#Para imagen de postgres, copiamos el Dockerfile que nos dio Jes
+#docker build -t postgres_itam .
+#NOTA. Lo hice con Windos-Docker para los Incredulos de Windows!! jejeje
+#Para contenedor y carpetas que vean a repo local (se usa -v para generar la ventana entre windows y el relajo de postgres) ojo el puerto habilitado es el 5432 jejeje
+docker run --name postgres_itam -v //c/Users/FORANEA110/Desktop/SEM_TAREAS/Postgres://home -e POSTGRES_USER=itam -e POSTGRES_PASSWORD=itam -e POSTGRES_DB=itamdb -p 5433:5432 -d mdillon/postgis
+#Para levantar el repo
+docker start postgres_itam
+#Para ingresar al contenedor postgres_itam
+docker exec -it postgres_itam bash
+
+###------postgres_itam-------###
+##INICIO DE PRUEBAS, PARA TAREA NOS BRINCAMOS ESTE MINI APRENDIZAJE
+#Cambiamos a carpeta destino
+cd home
+#unzip 889463084105_s & stream #se puede extraer en este punto, yo lo hice desde windows
+#Entramos a postgres
+su postgres
+$psql
+
+###------POSTGRES-------###
+postgres-# create role itam with login password 'itam' valid until 'infinity';
+postgres-# create database itamdb;
+postgres-# alter database itamdb owner to itam;
+
+###------POSTGRES-------###
+#hacemos un test para ver que jale esta cosa:
+postgres-# CREATE TABLE cities (
+postgres(#     name            varchar(80),
+postgres(#     location        point
+postgres(# );
+CREATE TABLE
+$ postgres=# INSERT INTO cities VALUES ('San Francisco', '(-194.0, 53.0)');
+INSERT 0 1
+$ postgres=# select * from cities;
+     name      | location
+---------------+-----------
+ San Francisco | (-194,53)
+(1 row)
+
+#y si jalo  :-)
+#Salimos a Home
+CTRL+D 

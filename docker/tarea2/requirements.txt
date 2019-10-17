@@ -1,0 +1,5 @@
+#Paquetes para imagen de Python
+click
+pandas
+numpy
+matplotlib

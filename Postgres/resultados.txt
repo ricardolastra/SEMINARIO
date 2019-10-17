@@ -1,0 +1,388 @@
+--------TAREA, SECCION DE RESPUESTAS:
+¿Cuántos tweets hay? ¿Cuántos están geolocalizados?
+Existen los siguientes tweets:
+ count 
+-------
+ 26431
+(1 row)
+
+Los unicos GeoLocalizados son:
+ count 
+-------
+  2150
+(1 row)
+
+¿Cuántos tweets hay por municipio?
+                nom_mun                 | count 
+----------------------------------------+-------
+ Abasolo                                |     1
+ Acambay de Ruíz Castañeda              |     1
+ Acapulco de Juárez                     |    10
+ Aguascalientes                         |     3
+ Ahome                                  |     2
+ Allende                                |     1
+ Almoloya de Juárez                     |     1
+ Altamira                               |     1
+ Alto Lucero de Gutiérrez Barrios       |     1
+ Álvaro Obregón                         |    11
+ Apodaca                                |     5
+ Atlacomulco                            |     1
+ Atlixco                                |     8
+ Atotonilco el Alto                     |     1
+ Azcapotzalco                           |    11
+ Bahía de Banderas                      |     1
+ Benito Juárez                          |    42
+ Boca del Río                           |     9
+ Caborca                                |     1
+ Cajeme                                 |     4
+ Campeche                               |     1
+ Carbó                                  |     2
+ Cárdenas                               |     1
+ Carmen                                 |     1
+ Celaya                                 |     5
+ Centro                                 |    12
+ Champotón                              |     2
+ Chihuahua                              |     8
+ Ciudad Madero                          |     2
+ Coacalco de Berriozábal                |     2
+ Coatepec                               |     1
+ Coatzacoalcos                          |    12
+ Coatzintla                             |     1
+ Comalcalco                             |     1
+ Compostela                             |     1
+ Córdoba                                |     2
+ Corregidora                            |     1
+ Coyoacán                               |    43
+ Cuajimalpa de Morelos                  |     3
+ Cuatro Ciénegas                        |     1
+ Cuauhtémoc                             |   200
+ Cuautitlán Izcalli                     |     3
+ Cuautlancingo                          |     1
+ Cuernavaca                             |     9
+ Culiacán                               |    16
+ Dzemul                                 |     1
+ Ecatepec de Morelos                    |     2
+ El Marqués                             |     2
+ Ensenada                               |     6
+ Ezequiel Montes                        |     5
+ General Escobedo                       |     2
+ Guadalajara                            |    36
+ Guadalupe                              |     5
+ Guanajuato                             |     1
+ Gustavo A. Madero                      |    38
+ Halachó                                |     1
+ Hermosillo                             |    10
+ Heroica Ciudad de Juchitán de Zaragoza |     1
+ Huehuetoca                             |     1
+ Huixquilucan                           |     1
+ Irapuato                               |     1
+ Ixtacuixtla de Mariano Matamoros       |     1
+ Iztacalco                              |    17
+ Iztapalapa                             |    17
+ Jalapa                                 |     1
+ Jaltenco                               |     1
+ Jocotepec                              |     1
+ Juárez                                 |     4
+ La Huerta                              |     1
+ La Magdalena Contreras                 |     3
+ La Paz                                 |     7
+ Lázaro Cárdenas                        |     2
+ León                                   |     8
+ Lerma                                  |     1
+ Los Cabos                              |     7
+ Manzanillo                             |     2
+ Martínez de la Torre                   |     1
+ Matamoros                              |     2
+ Mazatlán                               |     2
+ Mérida                                 |    18
+ Metepec                                |     3
+ Mexicali                               |     3
+ Miguel Hidalgo                         |    36
+ Monterrey                              |    55
+ Morelia                                |     9
+ Naucalpan de Juárez                    |     7
+ Navolato                               |     2
+ Nezahualcóyotl                         |     5
+ Nicolás Romero                         |     1
+ Nogales                                |     5
+ Nopala de Villagrán                    |     2
+ Oaxaca de Juárez                       |     6
+ Ocoyoacac                              |     2
+ Othón P. Blanco                        |     2
+ Pachuca de Soto                        |    17
+ Paraíso                                |     1
+ Piedras Negras                         |     5
+ Pisaflores                             |     1
+ Playas de Rosarito                     |     1
+ Poza Rica de Hidalgo                   |     2
+ Progreso                               |     2
+ Puebla                                 |    24
+ Puerto Peñasco                         |     1
+ Puerto Vallarta                        |     2
+ Querétaro                              |    11
+ Rafael Lara Grajales                   |     1
+ Reynosa                                |     2
+ Río Grande                             |     2
+ Salina Cruz                            |     1
+ Saltillo                               |     2
+ San Andrés Cholula                     |     7
+ San Cristóbal de las Casas             |     2
+ San Francisco de Borja                 |     1
+ San José Iturbide                      |     1
+ San Luis Potosí                        |     9
+ San Miguel de Allende                  |     2
+ San Nicolás de los Garza               |    11
+ San Pedro Cholula                      |     1
+ San Pedro Garza García                 |     6
+ San Pedro Tlaquepaque                  |     2
+ Santa Catarina                         |     4
+ Santa María Colotepec                  |     1
+ Santiago                               |     3
+ Solidaridad                            |    18
+ Tala                                   |     2
+ Tampico                                |     3
+ Tapalpa                                |     1
+ Taxco de Alarcón                       |     2
+ Tecámac                                |     3
+ Tecate                                 |     1
+ Tepatitlán de Morelos                  |     3
+ Tepic                                  |     1
+ Tequila                                |     1
+ Texcoco                                |     2
+ Tijuana                                |    18
+ Tlajomulco de Zúñiga                   |     3
+ Tlalnepantla de Baz                    |     8
+ Tlalpan                                |    17
+ Tlapa de Comonfort                     |     1
+ Tlaxcala                               |     2
+ Toluca                                 |    11
+ Tonalá                                 |     5
+ Torreón                                |    20
+ Totolapan                              |     1
+ Tula de Allende                        |     2
+ Tulancingo de Bravo                    |     1
+ Tultepec                               |     2
+ Tuxtla Gutiérrez                       |     7
+ Tzintzuntzan                           |     1
+ Uruapan                                |     1
+ Venustiano Carranza                    |    12
+ Veracruz                               |    10
+ Victoria                               |     6
+ Villa de Cos                           |     1
+ Xalapa                                 |     6
+ Xalisco                                |    14
+ Xochitepec                             |     2
+ Yautepec                               |     1
+ Zacatecas                              |     3
+ Zapopan                                |    19
+ Zumpango                               |     1
+(161 rows)
+
+¿Hay hashtags repetidos? ¿Usuarios?
+Los HT repetidos son:
+        hashtags         | count 
+-------------------------+-------
+                         | 25341
+ HeismanHouse            |    71
+ job                     |    14
+ PabloRegresaAYT         |    14
+ quake                   |    10
+ nowplaying              |    10
+ sodastereo              |     8
+ traffic                 |     7
+ Vívelo                  |     7
+ RSF23                   |     6
+ SanMarcos               |     6
+ CDMX                    |     5
+ Cabify                  |     5
+ RN                      |     4
+ UFC                     |     4
+ SanDiego                |     4
+ ToqueDeQueda            |     4
+ VAWCDMX                 |     4
+ SoundCloud              |     4
+ Honduras                |     4
+ endorphins              |     4
+ Felices35Pancho         |     4
+ vinylmusichall          |     4
+ SEXIHUSTLE              |     4
+ SanAntonio              |     4
+ FueraJOH                |     4
+ night                   |     3
+ december                |     3
+ SAT                     |     3
+ Houston                 |     3
+ firstperformance        |     3
+ music                   |     3
+ teatrodelpueblo         |     3
+ Watch                   |     3
+ PoderAmorcito           |     3
+ Dallas                  |     3
+ partytime               |     3
+ GOPTaxScam              |     3
+ Hospitality             |     3
+ FightOn                 |     3
+ HY                      |     3
+ Pac12Champs             |     2
+ 90sPopTourCDMX          |     2
+ roadsidepeek            |     2
+ Foreverasaint           |     2
+ california              |     2
+ valleywx                |     2
+ navidad                 |     2
+ zoolights               |     2
+ VSFashionShow           |     2
+ HechosElCamino          |     2
+ proudsister             |     2
+ alpaca                  |     2
+ blackbandits            |     2
+ crsk12                  |     2
+ balboapark              |     2
+ UnViernesMásPara        |     2
+ Mexico                  |     2
+ Austin                  |     2
+ Miami                   |     2
+ PorMasAñosContigo       |     2
+ TUF26Finale             |     2
+ felicidad               |     2
+ VosNoSosMiPresidente    |     2
+ Michelettiwemissyou     |     2
+ corporativo             |     2
+ FraccionamientodelValle |     2
+ disney                  |     2
+ LoveOverHate            |     2
+ happybirthday           |     2
+ puebla                  |     2
+ NewOrleans              |     2
+ VOTEOUTGOP              |     2
+ Teawo                   |     2
+ paparupapaeueo          |     2
+ MéxicoEstaDePie         |     2
+ Estadodeexcepcion       |     2
+ searanch                |     2
+ dallasmua               |     2
+ christmastree           |     2
+ mexico                  |     2
+ EstoEsMexico            |     2
+ SECChampionship         |     2
+ fridaynight             |     2
+ dj                      |     2
+ silvabakgz              |     2
+ Resist                  |     2
+ León                    |     2
+ cdmx                    |     2
+(89 rows)
+
+Los Usuarios repetidos son:
+      user_id       | count 
+--------------------+-------
+ 924056131961364480 |   129
+ 3285595652         |    69
+ 879564033518469120 |    55
+ 2886739776         |    50
+ 334136328          |    38
+ 1428440616         |    36
+ 1380470467         |    31
+ 768022268          |    30
+ 381476865          |    29
+ 261469386          |    26
+ 3433590579         |    25
+ 4886615686         |    25
+ 959522756          |    24
+ 1321440912         |    23
+ 62562766           |    23
+ 768492272908247040 |    22
+ 76184375           |    22
+ 266956478          |    22
+ 1181997601         |    21
+ 758415480881164288 |    21
+ 261736294          |    21
+ 36274840           |    20
+ 4491930674         |    20
+ 3409673483         |    20
+ 2234934444         |    20
+ 29414925           |    19
+ 1125796676         |    19
+ 702399081          |    18
+ 4260577153         |    18
+ 495226854          |    18
+ 95777870           |    17
+ 63822709           |    17
+ 334692782          |    17
+ 382328057          |    17
+ 305697207          |    17
+ 355416292          |    17
+ 64568209           |    17
+ 67801872           |    17
+ 1046497532         |    16
+ 99880878           |    16
+ 1213518222         |    16
+ 31309653           |    16
+ 780476339916713985 |    16
+ 1659305586         |    15
+ 903352495753183233 |    15
+ 1957928196         |    15
+ 2436289944         |    15
+ 839190945249775616 |    15
+ 4693752074         |    15
+ 413630598          |    15
+(50 rows)
+
+¿De qué países hay tweets en el archivo?
+      country       
+--------------------
+ 
+ United States
+ México
+ Belize
+ Vereinigte Staaten
+ Mexico
+ Mexique
+ Mexiko
+ Honduras
+ Nicaragua
+ Guatemala
+ El Salvador
+ Messico
+ Etats-Unis
+ Estados Unidos
+(15 rows)
+
+¿Cuál es el usuario con más followers? ¿Y gente followed?
+El usuraio con mas Follower es: Las Noticias con 698321 Followers
+¿A cuáles sitios apuntan las display_url s?
+            display_urls             
+-------------------------------------
+ 
+ "instagram.com/p/BcL9FZShbS9/"
+ "instagram.com/p/BcL8-LXhZPm/"
+ "instagram.com/p/BcL9lDxhqNA/"
+ "twitter.com/tiosammy52/sta…"
+ "instagram.com/p/BcL9zhwB_lO/"
+ "instagram.com/p/Baq0H1gDs4r/"
+ "instagram.com/p/BcL9gC8Bs-A/"
+ "twitter.com/kylegriffin1/s…"
+ "twitter.com/mayedelangel52…"
+ "canva.com/design/DACoY7L…"
+ "instagram.com/p/BcMDtNBhyKG/"
+ "instagram.com/p/BcL9bTHhOqi/"
+ "instagram.com/p/BcMH6n4F1hlq…"
+ "aprende.org/quickvid/cfcs_…"
+ "instagram.com/p/BcME74AFcVW/"
+ "twitter.com/epicallymeems/…"
+ "instagram.com/p/BcMBC-fFe2x/"
+ "twitter.com/yakovhirsch/st…"
+ "instagram.com/p/BcL9naoBqQA/"
+ "instagram.com/p/BcL9CZAhrZY/"
+ "instagram.com/p/BcL9dyOhyMs/"
+ "instagram.com/p/BcL9LmZBX81/"
+ "twitter.com/i/web/status/9…"
+ "instagram.com/p/BcL9VxahgVm/"
+ "instagram.com/p/BcL9itaBcHQ/"
+ "instagram.com/p/BcL9PTLBifH/"
+ "twitter.com/Ana_EnDirecto/…"
+ "cards.twitter.com/cards/18ce54ao…"
+ "instagram.com/p/BcL9YpzB0LI/"
+ "instagram.com/p/BcME5AEhT7z/"
+(31 rows)
+
